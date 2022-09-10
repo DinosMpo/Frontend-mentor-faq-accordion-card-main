@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
   
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
@@ -15,26 +19,91 @@
   </style>
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+  <main class="container">
+    <div class="faq-container">
+      <div class="illustration-container">
+        <div class="illustration-desktop">
+          <div class="back">
+            <img src="images/bg-pattern-desktop.svg">
+          </div>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+          <div class="woman">
+            <img class="desktop-woman" src="images/illustration-woman-online-desktop.svg"/>
+          </div>
+        </div>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+        <div class="box">
+          <img src="images/illustration-box-desktop.svg">
+        </div>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
+        <div class="illustration-mobile">
+          <div class="container-illustration-mobile">
+            
+          </div>
+          <img src="images/illustration-woman-online-mobile.svg">
+          <img class="illustration-mobile-bg" src="images/bg-pattern-mobile.svg">
+        </div>
+      </div> 
 
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
+      <div class="faq-section">
+        <h1>
+          FAQ
+        </h1>
+
+        <div class="container-question">
+          <div class="question">How many team members can I invite?</div>
+          <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+          <p class="answer">
+            You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.
+          </p>
+          <hr>
+        </div>
+
+        <div class="container-question">
+          <div class="question">What is the maximum file upload size?</div>
+          <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+          <p class="answer">
+            No more than 2GB. All files in your account must fit your allotted storage space.
+          </p>
+          <hr>
+        </div>
+
+        <div class="container-question">
+          <div class="question">How do I reset my password?</div>
+          <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+          <p class="answer">
+            Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.
+          </p>
+          <hr>
+        </div>
+
+        <div class="container-question">
+          <div class="question">Can I cancel my subscription?</div>
+          <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+          <p class="answer">
+            Yes! Send us a message and we’ll process your request no questions asked.
+          </p>
+          <hr>
+        </div>
+
+        <div class="container-question">
+          <div class="question">Do you provide additional support?</div>
+          <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+          <p class="answer">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </p>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.linkedin.com/in/konstantinos-bogiatzakis-b60079131/">DinosMpo</a>.
   </div>
+  <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
